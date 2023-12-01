@@ -28,3 +28,18 @@
         width: 33%;
     }
 }
+
+@media screen and (max-width: 540px) {
+    article .row .col-2:nth-child(3){
+        display: none;
+    }
+    article .row .col-2:nth-child(odd){
+        width: 50%;
+    }
+    footer p, footer button{
+        display: none;
+    }
+    footer svg{
+        width: 40%;
+    }
+}
