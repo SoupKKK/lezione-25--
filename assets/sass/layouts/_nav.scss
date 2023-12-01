@@ -9,6 +9,7 @@ nav .navbar-brand   {
 nav button{
     @include btn;
     width: 10%;
+    border: transparent
 }
 
 nav svg{

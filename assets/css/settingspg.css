@@ -12,6 +12,7 @@ nav button {
   color: white;
   margin-bottom: 15px;
   width: 10%;
+  border: transparent;
 }
 nav button:hover {
   transform: translateY(2px);
