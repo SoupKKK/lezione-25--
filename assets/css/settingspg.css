@@ -1,0 +1,64 @@
+nav .navbar-collapse ul li a {
+  color: white;
+}
+
+nav button {
+  background-color: transparent;
+  padding: 1%;
+  color: white;
+  margin-bottom: 15px;
+  width: 10%;
+}
+nav button:hover {
+  transform: translateY(2px);
+  box-shadow: 0 -2px 8px 0 rgb(255, 255, 255);
+}
+
+nav svg {
+  width: 4%;
+  margin: 2%;
+  padding: 1%;
+}
+
+nav img {
+  width: 120%;
+  margin-right: 30px;
+}
+
+.dropdown-toggle {
+  width: 70px;
+  margin-right: 20px;
+}
+
+nav {
+  background-color: rgb(29, 25, 25);
+}
+
+main {
+  margin: 2% 20% 2% 20%;
+}
+main img {
+  width: 4%;
+  margin: 2%;
+  padding: 1%;
+  width: 10%;
+}
+main p {
+  opacity: 0.8;
+}
+main h2 {
+  opacity: 0.5;
+}
+main button {
+  background-color: transparent;
+  padding: 1%;
+  color: white;
+  margin-bottom: 15px;
+  background-color: black;
+  opacity: 0.3;
+  padding: 4%;
+}
+main button:hover {
+  transform: translateY(2px);
+  box-shadow: 0 -2px 8px 0 rgb(255, 255, 255);
+}/*# sourceMappingURL=settingspg.css.map */

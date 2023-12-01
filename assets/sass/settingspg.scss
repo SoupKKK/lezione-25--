@@ -1,0 +1,32 @@
+@import "mixins/mixins";
+
+@import "layouts/nav.scss";
+
+nav{
+    background-color: rgb(29, 25, 25);
+}
+
+main{
+    margin: 2% 20% 2% 20%;
+
+    img{
+        @include logoImg;
+        width: 10%;
+    }
+
+    p{
+        opacity: 0.8;
+    }
+    
+    h2{
+        opacity: 0.5;
+    }
+    
+    button{
+        @include btn;
+        background-color: black;
+        opacity: 0.3;
+        padding: 4%;
+    }
+
+}

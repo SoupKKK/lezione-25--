@@ -1,0 +1,30 @@
+@import "mixins/mixins";
+
+@import "layouts/nav.scss";
+@import "layouts/main.scss";
+@import "layouts/article";
+@import "layouts/footer";
+
+@import "bootstrap/bootstrap.scss";
+
+@import "layouts/body";
+
+
+@media screen and (max-width: 991px) {
+    nav .navbar-toggler {
+        background-color: white;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    main svg{
+        display: none;
+    }
+    article .row .col-2:nth-child(even){
+        display: none;
+    }
+    article .row .col-2:nth-child(odd){
+        width: 33%;
+    }
+}
