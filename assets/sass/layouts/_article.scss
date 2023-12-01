@@ -1,14 +1,15 @@
-article h2{
-    margin: 35px 0px 20px 0px;
+article {
+    h2{
+        margin: 35px 0px 20px 0px;
+    }
+    img {
+        transition: scale 0.3s ease-in-out; 
+        &:hover{
+            scale: 1.4;
+    }
+    }
 }
 
-article img {
-    transition: scale 0.3s ease-in-out; 
-    &:hover{
-        scale: 1.4;
-    }
-    
-}
 
 article .carousel-control-prev, article .carousel-control-next{
     width: 5%;

@@ -2,6 +2,10 @@ nav .navbar-collapse ul li a {
   color: white;
 }
 
+nav .navbar-brand {
+  width: 10%;
+}
+
 nav button {
   background-color: transparent;
   padding: 1%;
